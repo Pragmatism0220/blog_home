@@ -67,7 +67,7 @@
     background: #f4f6f8;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
     .waifu  {
         display: none;
     }

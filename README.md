@@ -1,6 +1,9 @@
 # blog_home
 My blog home page
 
+## Update information
+2020-05-13: Add "Platelet"(血小板) Live 2D model.
+
 ## What's it
 Just as its name says, it's my blog home page.
 

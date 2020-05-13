@@ -22,10 +22,14 @@ My Version: https://github.com/Pragmatism0220/blog_home
     <title>Pragmatism0220の小窝</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/minireset.css@0.0.3/minireset.min.css" integrity="sha256-rYUTtzummUpBJLuuLnVN9Hy06M9uLlZ8W8VZOyiX2WQ="
         crossorigin="anonymous">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_home/assets/css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js" integrity="sha256-9uAoNWHdszsUDhSXf/rVcWOqKPfi5/8V5R4UdbZle2A=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js" integrity="sha256-nwhzW/P9gnvWMPOm84MK8BzQRRMdi8iutxMuYsYcOgw=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_CDN/live2d/css/waifu.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_CDN/live2d/js/live2d.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_CDN/live2d/js/waifu.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -124,7 +128,7 @@ My Version: https://github.com/Pragmatism0220/blog_home
                     <h1>拯救吃土的Pragmatism0220 Orz<br>求投喂啊！！！ぴえん<span class="iconify" data-icon="noto-pleading-face" data-inline="false"></span></h1>
                     <div class="donate-img-box">
                         <!-- Original picture's author: pixiv@森倉円(https://www.pixiv.net/users/177784) -->
-                        <img src="assets/img/beg_for_donate.png">
+                        <img src="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_home/assets/img/beg_for_donate.png">
                     </div>
                 </section>
             </div>
@@ -140,9 +144,18 @@ My Version: https://github.com/Pragmatism0220/blog_home
         </footer>
     </main>
 
+    <div class="waifu ">
+        <div class="waifu-tips" style="opacity:0"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    </div>
+
+    <script type="text/javascript">
+        loadlive2d("live2d", "https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_CDN/live2d/model/kesshouban/model.json");
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Pragmatism0220/blog_home/assets/js/main.js"></script>
 </body>
 
 </html>

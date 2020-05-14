@@ -685,11 +685,11 @@ footer #hitokoto {
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?ay584a');
-    src:  url('../fonts/icomoon.eot?ay584a#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ay584a') format('truetype'),
-    url('../fonts/icomoon.woff?ay584a') format('woff'),
-    url('../fonts/icomoon.svg?ay584a#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?il6lye');
+    src:  url('../fonts/icomoon.eot?il6lye#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?il6lye') format('truetype'),
+    url('../fonts/icomoon.woff?il6lye') format('woff'),
+    url('../fonts/icomoon.svg?il6lye#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -712,4 +712,53 @@ footer #hitokoto {
 
 .icon-BILIBILI_LOGO:before {
     content: "\e900";
+}
+.icon-pleading-face .path1:before {
+    content: "\e999";
+    color: rgb(255, 204, 77);
+}
+.icon-pleading-face .path2:before {
+    content: "\e99a";
+    margin-left: -1em;
+    color: rgb(101, 71, 27);
+}
+.icon-pleading-face .path3:before {
+    content: "\e99b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-pleading-face .path4:before {
+    content: "\e99c";
+    margin-left: -1em;
+    color: rgb(101, 71, 27);
+}
+.icon-pleading-face .path5:before {
+    content: "\e99d";
+    margin-left: -1em;
+    color: rgb(244, 144, 12);
+}
+.icon-pleading-face .path6:before {
+    content: "\e99e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-pleading-face .path7:before {
+    content: "\e99f";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-pleading-face .path8:before {
+    content: "\e9a0";
+    margin-left: -1em;
+    color: rgb(101, 71, 27);
+}
+.icon-pleading-face .path9:before {
+    content: "\e9a1";
+    margin-left: -1em;
+    color: rgb(244, 144, 12);
+}
+.icon-pleading-face .path10:before {
+    content: "\e9a2";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
 }

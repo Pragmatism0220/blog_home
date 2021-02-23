@@ -1,3 +1,5 @@
+var DOMAIN = "https://chiuhsiang.com";
+
 $(document).ready(function () {
     getAchives();
     getHitokoto();
@@ -26,7 +28,7 @@ function getAchives() {
     t = ``;
     $.ajax({
         type: "GET",
-        url: "https://pragmatism0220.cf/wp-json/wp/v2/posts?per_page=8&page=1",
+        url: DOMAIN.replace(/^(\s|\/)+|(\s|\/)+$/g, '') + "/wp-json/wp/v2/posts?per_page=8&page=1",
         dataType: "json",
         success: function(json) {
             for (var i = 0; i < json.length; i++) {
